@@ -1,0 +1,39 @@
+h1 {
+    text-align: center; 
+    color:black;
+    background-color: lightskyblue;
+
+}
+
+/* * {
+    border: solid;
+} */
+
+.grid{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+p,h2{
+    text-align: center;
+    color:black;
+    font-size: 24px;
+}
+
+.site-description{
+    display:flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+body{
+    background-color: white;
+}
+img:hover{
+    transform:translate(-3%,-3%);
+    opacity: 0.8;
+}
